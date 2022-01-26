@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#03a9f4, #03a9f4 50%, #fff 50%, #ffffff 100%);
+}
+
+ul {
+    position: relative;
+    justify-content: center;
+    top: -441px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    transition: .5s;
+    background-color: transparent;
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    margin: 0 50px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 5px;
+}
+
+ul:hover li {
+    opacity: .2;
+    filter: blur(1px);
+}
+
+ul li:hover {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.section {
+    text-align: center;
+    position: absolute;
+    top: 140px;
+    font-size: 20px;
+}
+
+.section .content {
+    text-align: justify;
+    width: 1000px;
+}
+
+.section .content .pros {
+    color: rgb(0, 0, 0);
+}
+
+.section .content .cons {
+    color: red;
+}
+
+.section .content .dark {
+    color: #fff;
+}
