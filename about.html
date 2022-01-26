@@ -11,7 +11,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/typed.js"></script>
     <link rel="shortcut icon" href="res/favicon.png" type="image/x-icon">
-
+<script>
+        $(window).on("load", function() {
+            $(".loader-wrapper").fadeOut("slow");
+        })
+    </script>
     <title>About Us</title>
 </head>
 
@@ -27,7 +31,10 @@
         </ul>
     </div>
 
-
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    
     <h1>Group 1 IT-212</h1>
     <p>We are the students of STI Las Piñas who are tasked to develop this website</p>
 
