@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style-macos.css">
     <link rel="shortcut icon" href="res/favicon.png" type="image/x-icon">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        $(window).on("load", function() {
+            $(".loader-wrapper").fadeOut("slow");
+        })
+    </script>
     <title>MacOS</title>
 </head>
 
@@ -18,7 +24,9 @@
         <li><a href="features.html">Features</a></li>
         <li><a href="about.html">About</a></li>
     </ul>
-
+<div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
 
     <div class="card">
         <div class="imgBx">
