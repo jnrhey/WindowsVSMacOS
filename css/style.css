@@ -104,3 +104,10 @@ ul li:hover {
     color: #03a9f4;
     transition: .5s;
 }
+
+.surveyFrame {
+    text-align: center;
+    position: absolute;
+    top: 95px;
+    left: 10%;
+}
